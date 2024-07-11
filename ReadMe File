@@ -1,0 +1,24 @@
+
+Created the project with the following structure:
+
+
+
+ExpenseTracker/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── model/
+│   │   │   │   └── Expense.java
+│   │   │   ├── dao/
+│   │   │   │   └── ExpenseDAO.java
+│   │   │   ├── servlet/
+│   │   │   │   ├── AddExpenseServlet.java
+│   │   │   │   └── ViewExpensesServlet.java
+│   │   ├── webapp/
+│   │   │   ├── WEB-INF/
+│   │   │   │   ├── web.xml
+│   │   │   ├── addExpense.jsp
+│   │   │   ├── viewExpenses.jsp
+│   │   │   └── css/
+│   │   │       └── styles.css
+├── pom.xml
